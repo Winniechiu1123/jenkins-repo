@@ -1,0 +1,8 @@
+pipelin {
+  agent any
+  stages {
+    stage('Build'){
+      echo "This should run on the Build stage"
+    }
+  }
+}
